@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pagina</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">logo</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+                
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <a href="pago.html">
+                        <img src="images/car.svg" id="img-carrito" alt="carrito">
+                        <span id="contador-carrito" class="contador-carrito">0</span>
+                    </a>
+                        <div id="carrito">                           
+                           <table id="lista-carrito">
+                                
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar carrito </a>
+                            
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="header-content container">
+            <div class="header-img">
+                <img src="images/right.png" alt="">
+            </div>
+            <div class="header-txt">
+                <h1>ofertas especiales</h1>
+                <p>estrena los mejores componentes</p>
+                <a href="#" class="btn-1">Mas Productos</a>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="ofert container">
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/f1.png" alt="">
+
+            </div>
+            <div class="ofert-txt">
+                <h3>Componentes</h3>
+                <a href="#" class="btn-2">Ver mas</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/f2.png" alt="">
+
+            </div>
+            <div class="ofert-txt">
+                <h3>MOnitores</h3>
+                <a href="#" class="btn-2">Ver mas</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/f3.png" alt="">
+
+            </div>
+            <div class="ofert-txt">
+                <h3>accesorios</h3>
+                <a href="#" class="btn-2">Ver mas</a>
+            </div>
+        </div>
+    
+
+    </section>
+
+    <main class="products container" id="lista-1">
+        <div id="mensaje" class="mensaje"></div>
+        <h2>Productos</h2>
+
+        <div id="product-content" class="product-content">
+
+        </div>
+
+    </main>
+
+    <section class="icons container">
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="images/i1.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>computadoras ensambladas</h3>
+                <p>
+                    Encuentre la mejor PC para usted
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="images/i2.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>portatiles</h3>
+                <p>
+                    Aqui si lo tuyo es lo portatil 
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="images/i3.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>licencias</h3>
+                <p>
+                    Deja ese windows y pasete a linux 
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="blog container">
+        <div class="blog-1">
+            <img src="images/b1.jpg" alt="">
+            <h3>Corsair</h3>
+            <p>
+                MINI Teclado MECANICO GAMER! 😱El más pequeño de todos? Corsair K65 60%
+            </p>
+
+        </div>
+
+        <div class="blog-1">
+            <img src="images/b2.jpg" alt="">
+            <h3>Cooler Master</h3>
+            <p>
+                La serie MasterLiquid ML-Illusion redefine la iluminación 
+                visual con todas las nuevas características de diseño de la serie MasterLiquid.
+                 La MasterLiquid ML-Illusion no sólo es elegante, sino también extremadamente capaz,
+                  con la bomba de doble cámara de 3ª generación para un excelente rendimiento de refrigeración.
+            </p>
+
+        </div>
+
+        <div class="blog-1">
+            <img src="images/b3.jpg" alt="">
+            <h3>MSI Gaming</h3>
+            <p>
+                ¡Han llegado los juegos de próxima generación! 🚨 
+                Realice un pedido anticipado de las NUEVAS computadoras portátiles 
+                para juegos con procesadores Intel de 13.a generación y gráficos NVIDIA GeForce RTX 4090 y 4080 💻
+            </p>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Compañia</h3>
+                <ul>
+                    <li><a href="#">Acerca de Nosotros</a></li>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Contactenos</a></li>
+                    
+                 </ul>
+            </div>
+
+            <div class="link">
+                <h3>Consumidor</h3>
+                <ul>
+                    <li><a href="#">Tarjeta Madre</a></li>
+                    <li><a href="#">Tarjeta Grafica</a></li>
+                    <li><a href="#">Computador Portatil</a></li>
+                    <li><a href="#">Monitor</a></li>
+                    <li><a href="#">Computadora de escritorio</a></li>
+                    <li><a href="#">Perifericos de PC</a></li>
+                    <li><a href="#">Componentes de PC</a></li>
+                 </ul>
+            </div>
+
+            <div class="link">
+                <h3>Servicios de ayuda</h3>
+                <ul>
+                    <li><a href="#">Productos de consumo</a></li>
+                    <li><a href="#">Redes Sociales</a></li>
+                    <li><a href="#">Soporte en linea</a></li>
+                    
+                 </ul>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    
+    <script src="scrip.js"></script>
+</body>
+</html>
